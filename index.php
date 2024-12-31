@@ -6,6 +6,9 @@
     <?php
     include "headlink.php";
     ?>
+    <style>
+     
+    </style>
   </head>
   <body id="top">
 
@@ -46,10 +49,10 @@
             </div>
             <form method="post" class="search-jobs-form">
               <div class="row mb-5">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
                   <input type="text" class="form-control form-control-lg" placeholder="Job title, Company...">
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
                   <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Region">
                     <option>Anywhere</option>
                     <option>San Francisco</option>
@@ -62,13 +65,13 @@
                     <option>Mountain View</option>
                   </select>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                <!-- <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                   <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Job Type">
                     <option>Part Time</option>
                     <option>Full Time</option>
                   </select>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                </div> -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
                   <button type="submit" class="btn btn-primary btn-lg btn-block text-white btn-search"><span class="icon-search icon mr-2"></span>Search Job</button>
                 </div>
               </div>
@@ -93,7 +96,7 @@
 
     </section>
     
-    <section class="py-5 bg-image overlay-primary fixed overlay" id="next" style="background-image: url('images/hero_1.jpg');">
+    <!-- <section class="py-5 bg-image overlay-primary fixed overlay" id="next" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
@@ -124,7 +127,7 @@
             <span class="caption">Jobs Filled</span>
           </div>
 
-          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">      
             <div class="d-flex align-items-center justify-content-center mb-2">
               <strong class="number" data-number="550">0</strong>
             </div>
@@ -134,22 +137,107 @@
             
         </div>
       </div>
-    </section>
+    </section> -->
 
-    
+    <section class="explore-categories py-5">
+    <div class="container">
+        <div class="heading-title text-center mb-4">
+            <h2>Explore Categories</h2>
+            <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-3 col-sm-6">
+                <a href="https://jobs.nokriwp.com/search-page/?cat-id=80" class="category-card text-center">
+                    <div class="cat-icons mb-3">
+                        <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/11/car.png" alt="Automotive">
+                    </div>
+                    <h5>Automotive</h5>
+                    <span>(1 Openings)</span>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="https://jobs.nokriwp.com/search-page/?cat-id=83" class="category-card text-center">
+                    <div class="cat-icons mb-3">
+                        <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/10/blackboard.png" alt="Education">
+                    </div>
+                    <h5>Education</h5>
+                    <span>(1 Openings)</span>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="https://jobs.nokriwp.com/search-page/?cat-id=81" class="category-card text-center">
+                    <div class="cat-icons mb-3">
+                        <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/11/cardiogram1.png" alt="Health and Care">
+                    </div>
+                    <h5>Health and Care</h5>
+                    <span>(1 Openings)</span>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="https://jobs.nokriwp.com/search-page/?cat-id=88" class="category-card text-center">
+                    <div class="cat-icons mb-3">
+                        <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/10/paint-roller-1.png" alt="Construction">
+                    </div>
+                    <h5>Construction</h5>
+                    <span>(0 Openings)</span>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="https://jobs.nokriwp.com/search-page/?cat-id=8" class="category-card text-center">
+                    <div class="cat-icons mb-3">
+                        <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/10/painting-palette.png" alt="Designer">
+                    </div>
+                    <h5>Designer</h5>
+                    <span>(1 Openings)</span>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="https://jobs.nokriwp.com/search-page/?cat-id=16" class="category-card text-center">
+                    <div class="cat-icons mb-3">
+                        <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/10/spinning.png" alt="Fitness Trainer">
+                    </div>
+                    <h5>Fitness Trainer</h5>
+                    <span>(0 Openings)</span>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="https://jobs.nokriwp.com/search-page/?cat-id=10" class="category-card text-center">
+                    <div class="cat-icons mb-3">
+                        <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/10/promotion.png" alt="Marketing">
+                    </div>
+                    <h5>Marketing</h5>
+                    <span>(1 Openings)</span>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="https://jobs.nokriwp.com/search-page/?cat-id=85" class="category-card text-center">
+                    <div class="cat-icons mb-3">
+                        <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/10/question.png" alt="Other Services">
+                    </div>
+                    <h5>Other Services</h5>
+                    <span>(1 Openings)</span>
+                </a>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="#" class="btn  btn-lg" style="background: #90c317;color:white">Explore More</a>
+        </div>
+    </div>
+</section>
 
     <section class="site-section">
       <div class="container">
 
         <div class="row mb-5 justify-content-center">
-          <div class="col-md-7 text-center">
-            <h2 class="section-title mb-2">43,167 Job Listed</h2>
-          </div>
+        <div class="heading-title text-center">
+            <h2>Featured Jobs</h2>
+            <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor</p>
+        </div>
         </div>
         
         <ul class="job-listings mb-5">
           <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
-            <a href="job-single.html"></a>
+            <a href="applyjob.php"></a>
             <div class="job-listing-logo">
               <img src="images/job_logo_1.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
             </div>
@@ -162,9 +250,11 @@
               <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
                 <span class="icon-room"></span> New York, New York
               </div>
-              <div class="job-listing-meta">
-                <span class="badge badge-danger">Part Time</span>
-              </div>
+               <div class="job-listing-meta">
+                 <span class="badge badge-success">Apply Now</span> 
+                
+              </div> 
+             
             </div>
             
           </li>
@@ -183,7 +273,7 @@
                 <span class="icon-room"></span> Overland Park, Kansas 
               </div>
               <div class="job-listing-meta">
-                <span class="badge badge-success">Full Time</span>
+                <span class="badge badge-success">Apply Now</span>
               </div>
             </div>
           </li>
@@ -203,7 +293,7 @@
                 <span class="icon-room"></span> Overland Park, Kansas 
               </div>
               <div class="job-listing-meta">
-                <span class="badge badge-success">Full Time</span>
+                <span class="badge badge-success">Apply Now</span>
               </div>
             </div>
           </li>
@@ -223,7 +313,7 @@
                 <span class="icon-room"></span> Anywhere 
               </div>
               <div class="job-listing-meta">
-                <span class="badge badge-success">Full Time</span>
+                <span class="badge badge-success">Apply Now</span>
               </div>
             </div>
           </li>
@@ -243,7 +333,7 @@
                 <span class="icon-room"></span> San Mateo, CA 
               </div>
               <div class="job-listing-meta">
-                <span class="badge badge-success">Full Time</span>
+                <span class="badge badge-success">Apply Now</span>
               </div>
             </div>
           </li>
@@ -262,7 +352,7 @@
                 <span class="icon-room"></span> New York, New York
               </div>
               <div class="job-listing-meta">
-                <span class="badge badge-danger">Part Time</span>
+                <span class="badge badge-success">Apply Now</span>
               </div>
             </div>
             
@@ -282,7 +372,7 @@
                 <span class="icon-room"></span> Overland Park, Kansas 
               </div>
               <div class="job-listing-meta">
-                <span class="badge badge-success">Full Time</span>
+                <span class="badge badge-success">Apply Now</span>
               </div>
             </div>
           </li>
@@ -327,6 +417,99 @@
       </div>
     </section>
 
+
+
+    <section>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="heading-title left position-relative mb-4">
+                    <h2>Featured Candidates</h2>
+                </div>
+            </div>
+        <div class="col-md-4">
+            <div class="candidate-card position-relative p-3 text-center">
+                <!-- Bookmark Icon -->
+                <span class="bookmark-icon"><i class="fa fa-heart-o"></i></span>
+
+                <!-- Candidate Avatar -->
+                <div class="candidate-avatar mx-auto mb-3">
+                    <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/09/images-7-1.png" alt="David">
+                </div>
+
+                <!-- Candidate Details -->
+                <h4 class="candidate-title">David</h4>
+                <p class="">Data Entry Officer</p>
+                <p class=""><i class="fa fa-map-marker"></i> Chickasaw, USA</p>
+
+                <!-- Skills -->
+                <div class="candidate-skills mb-3">
+                    <a href="#">Patience</a>
+                    <a href="#">Commitment</a>
+                    <a href="#">Trainings</a>
+                </div>
+
+                <!-- View Profile Button -->
+                <a href="profile.php" class="btn btn-primary w-100">View Profile</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="candidate-card position-relative p-3 text-center">
+                <!-- Bookmark Icon -->
+                <span class="bookmark-icon"><i class="fa fa-heart-o"></i></span>
+
+                <!-- Candidate Avatar -->
+                <div class="candidate-avatar mx-auto mb-3">
+                    <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/09/images-7-1.png" alt="David">
+                </div>
+
+                <!-- Candidate Details -->
+                <h4 class="candidate-title">David</h4>
+                <p class="">Data Entry Officer</p>
+                <p class=""><i class="fa fa-map-marker"></i> Chickasaw, USA</p>
+
+                <!-- Skills -->
+                <div class="candidate-skills mb-3">
+                    <a href="#">Patience</a>
+                    <a href="#">Commitment</a>
+                    <a href="#">Trainings</a>
+                </div>
+
+                <!-- View Profile Button -->
+                <a href="https://jobs.nokriwp.com/candidate/robert/" class="btn btn-primary w-100">View Profile</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="candidate-card position-relative p-3 text-center">
+                <!-- Bookmark Icon -->
+                <span class="bookmark-icon"><i class="fa fa-heart-o"></i></span>
+
+                <!-- Candidate Avatar -->
+                <div class="candidate-avatar mx-auto mb-3">
+                    <img src="https://jobs.nokriwp.com/wp-content/uploads/2018/09/images-7-1.png" alt="David">
+                </div>
+
+                <!-- Candidate Details -->
+                <h4 class="candidate-title">David</h4>
+                <p class="">Data Entry Officer</p>
+                <p class=""><i class="fa fa-map-marker"></i> Chickasaw, USA</p>
+
+                <!-- Skills -->
+                <div class="candidate-skills mb-3">
+                    <a href="#">Patience</a>
+                    <a href="#">Commitment</a>
+                    <a href="#">Trainings</a>
+                </div>
+
+                <!-- View Profile Button -->
+                <a href="https://jobs.nokriwp.com/candidate/robert/" class="btn btn-primary w-100">View Profile</a>
+            </div>
+        </div>
+    </div>
+</div>
+								  
+</section>
     
     <section class="site-section py-4">
       <div class="container">
